@@ -1,0 +1,7 @@
+extend type Ad {
+  is_wishlisted: Boolean!
+}
+
+extend type Product {
+  is_wishlisted: Boolean!
+}

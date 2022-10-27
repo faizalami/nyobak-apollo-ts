@@ -1,0 +1,12 @@
+mutation update_product($id: ID!, $data: ProductInput!) {
+  updateProduct(id: $id, data: $data) {
+    data {
+      id
+      attributes {
+        product_id
+        name
+        wishlist
+      }
+    }
+  }
+}

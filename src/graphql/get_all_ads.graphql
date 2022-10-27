@@ -1,0 +1,12 @@
+query get_all_ads {
+  ads {
+    data {
+      id
+      attributes {
+        name
+        product_id
+        is_wishlisted @client
+      }
+    }
+  }
+}

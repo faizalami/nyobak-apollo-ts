@@ -1,0 +1,13 @@
+query get_all_products {
+  products {
+    data {
+      id
+      attributes {
+        product_id
+        name
+        wishlist
+        is_wishlisted @client
+      }
+    }
+  }
+}
